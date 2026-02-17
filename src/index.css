@@ -94,16 +94,11 @@ img {
   color: var(--color-text);
 }
 
-.navbar-brand-icon {
+.navbar-logo {
   width: 36px;
   height: 36px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--color-primary), #065F46);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 18px;
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .navbar-links {
@@ -476,6 +471,13 @@ img {
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.1rem;
+}
+
+.footer-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  object-fit: contain;
 }
 
 .footer-links {

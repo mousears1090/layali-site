@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Moon, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -9,9 +9,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="navbar-brand">
-          <div className="navbar-brand-icon">
-            <Moon size={18} />
-          </div>
+          <img src="/logo.png" alt="Layali" className="navbar-logo" />
           Layali
         </Link>
 

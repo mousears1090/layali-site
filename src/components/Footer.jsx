@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Moon } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-inner">
           <Link to="/" className="footer-brand">
-            <Moon size={18} />
+            <img src="/logo.png" alt="Layali" className="footer-logo" />
             Layali
           </Link>
 
