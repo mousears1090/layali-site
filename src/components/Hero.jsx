@@ -4,6 +4,8 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
+        <img src="/logo-transparent.png" alt="Layali" className="hero-logo" />
+
         <div className="hero-badge">
           Coming Soon on iOS
         </div>

@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="navbar-brand">
-          <img src="/logo.png" alt="Layali" className="navbar-logo" />
+          <img src="/logo-transparent.png" alt="Layali" className="navbar-logo" />
           Layali
         </Link>
 

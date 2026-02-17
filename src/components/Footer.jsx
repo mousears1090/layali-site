@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-inner">
           <Link to="/" className="footer-brand">
-            <img src="/logo.png" alt="Layali" className="footer-logo" />
+            <img src="/logo-transparent.png" alt="Layali" className="footer-logo" />
             Layali
           </Link>
 
