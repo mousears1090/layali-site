@@ -27,14 +27,9 @@ export default function Navbar() {
           <a href="/#features" onClick={() => setOpen(false)}>Features</a>
           <a href="/#premium" onClick={() => setOpen(false)}>Premium</a>
           <Link to="/privacy" onClick={() => setOpen(false)}>Privacy</Link>
-          <a
-            href="https://apps.apple.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="navbar-cta"
-          >
-            Download
-          </a>
+          <span className="navbar-cta coming-soon-nav">
+            Coming Soon
+          </span>
         </div>
       </div>
     </nav>

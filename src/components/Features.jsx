@@ -2,12 +2,12 @@ import {
   BookOpen,
   Heart,
   Clock,
-  Compass,
   Headphones,
   Repeat,
+  Moon,
   Star,
   CheckCircle,
-  Download,
+  Bell,
 } from 'lucide-react';
 
 const features = [
@@ -20,7 +20,7 @@ const features = [
   },
   {
     icon: <Heart size={24} />,
-    color: 'gold',
+    color: 'emerald',
     title: 'Daily Duas',
     description:
       'Access a curated collection of authentic duas from the Qur\'an and Sunnah. A new daily dua greets you every day — completely free.',
@@ -33,25 +33,25 @@ const features = [
       'Location-based prayer times with multiple calculation methods (ISNA, MWL, Umm Al-Qura, and more). Never miss a prayer with reminders.',
   },
   {
-    icon: <Compass size={24} />,
-    color: 'blue',
-    title: 'Qibla Direction',
-    description:
-      'A beautifully designed compass that always points towards the Kaaba, no matter where you are in the world.',
-  },
-  {
     icon: <Headphones size={24} />,
-    color: 'gold',
+    color: 'emerald',
     title: 'Audio Recitation',
     description:
       'Listen to professional Qur\'an recitation from renowned reciters. Play page-by-page or verse-by-verse as you follow along.',
   },
   {
     icon: <Repeat size={24} />,
-    color: 'blue',
+    color: 'emerald',
     title: 'Memorization Mode',
     description:
       'Loop specific ayahs at your own pace to build memorization. Set the number of repetitions and let Layali guide your hifdh journey.',
+  },
+  {
+    icon: <Moon size={24} />,
+    color: 'emerald',
+    title: 'Ramadan Tools',
+    description:
+      'Track your fasting, log taraweeh, count dhikr, and follow your Ramadan progress with daily duas and tips.',
   },
 ];
 
@@ -116,15 +116,10 @@ export default function Features() {
               <strong>$9.99</strong> / month after 30-day free trial
             </div>
 
-            <a
-              href="https://apps.apple.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              <Download size={18} />
-              Start Free Trial
-            </a>
+            <div className="btn-primary coming-soon">
+              <Bell size={18} />
+              Coming Soon to the App Store
+            </div>
           </div>
         </div>
       </section>

@@ -1,11 +1,11 @@
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Bell } from 'lucide-react';
 
 export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
         <div className="hero-badge">
-          Available on iOS
+          Coming Soon on iOS
         </div>
 
         <h1>
@@ -15,20 +15,15 @@ export default function Hero() {
 
         <p>
           Layali brings together beautiful Qur'an reading, authentic duas,
-          accurate prayer times, and Qibla direction — all in one
+          accurate prayer times, and Ramadan tools — all in one
           thoughtfully designed app.
         </p>
 
         <div className="hero-actions">
-          <a
-            href="https://apps.apple.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary"
-          >
-            <Download size={18} />
-            Download Free
-          </a>
+          <div className="btn-primary coming-soon">
+            <Bell size={18} />
+            Coming Soon
+          </div>
           <a href="#features" className="btn-secondary">
             Learn More
             <ArrowRight size={18} />
