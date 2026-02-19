@@ -162,7 +162,7 @@ export default function Privacy() {
           </ul>
           <p>
             To exercise any of these rights, contact us at{' '}
-            <a href="mailto:support@layali.app">support@layali.app</a>.
+            <a href="mailto:support@layalipro.com">support@layalipro.com</a>.
           </p>
 
           <h2>7. Children's Privacy</h2>
@@ -214,7 +214,7 @@ export default function Privacy() {
           </p>
           <p>
             <strong>Email:</strong>{' '}
-            <a href="mailto:support@layali.app">support@layali.app</a>
+            <a href="mailto:support@layalipro.com">support@layalipro.com</a>
           </p>
         </div>
       </div>

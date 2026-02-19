@@ -170,7 +170,7 @@ export default function Terms() {
           <p>
             If you have questions about these Terms, please contact us
             at{' '}
-            <a href="mailto:support@layali.app">support@layali.app</a>.
+            <a href="mailto:support@layalipro.com">support@layalipro.com</a>.
           </p>
         </div>
       </div>
