@@ -252,22 +252,6 @@ img {
   transform: translateY(-1px);
 }
 
-.btn-primary.coming-soon {
-  background: var(--color-surface-alt);
-  border: 1px solid var(--color-primary);
-  color: var(--color-primary);
-  cursor: default;
-}
-
-.btn-primary.coming-soon:hover {
-  background: var(--color-surface-alt);
-  transform: none;
-}
-
-.coming-soon-nav {
-  opacity: 0.7;
-  cursor: default;
-}
 
 .btn-secondary {
   display: inline-flex;

@@ -25,9 +25,15 @@ export default function Navbar() {
           <a href="/#features" onClick={() => setOpen(false)}>Features</a>
           <a href="/#premium" onClick={() => setOpen(false)}>Premium</a>
           <Link to="/privacy" onClick={() => setOpen(false)}>Privacy</Link>
-          <span className="navbar-cta coming-soon-nav">
-            Coming Soon
-          </span>
+          <a
+            href="https://apps.apple.com/us/app/layali-quran-duas/id6759272609"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar-cta"
+            onClick={() => setOpen(false)}
+          >
+            Download
+          </a>
         </div>
       </div>
     </nav>

@@ -7,8 +7,9 @@ import {
   Moon,
   Star,
   CheckCircle,
-  Bell,
 } from 'lucide-react';
+
+const APP_STORE_URL = 'https://apps.apple.com/us/app/layali-quran-duas/id6759272609';
 
 const features = [
   {
@@ -116,10 +117,9 @@ export default function Features() {
               <strong>$9.99</strong> / month after 30-day free trial
             </div>
 
-            <div className="btn-primary coming-soon">
-              <Bell size={18} />
-              Coming Soon to the App Store
-            </div>
+            <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Download for Free
+            </a>
           </div>
         </div>
       </section>
