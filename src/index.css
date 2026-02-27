@@ -117,6 +117,14 @@ img {
   color: var(--color-text);
 }
 
+.navbar-links a.navbar-cta {
+  color: white;
+}
+
+.navbar-links a.navbar-cta:hover {
+  color: white;
+}
+
 .navbar-cta {
   display: inline-flex;
   align-items: center;
