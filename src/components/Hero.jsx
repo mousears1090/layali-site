@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/layali-quran-duas/id6759272609';
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.kandilman.misbah';
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
         <img src="/logo-transparent.png" alt="Layali" className="hero-logo" />
 
         <div className="hero-badge">
-          Available on the App Store
+          Available on iOS & Android
         </div>
 
         <h1>
@@ -29,10 +30,10 @@ export default function Hero() {
             <FaApple size={20} />
             Download for iOS
           </a>
-          <span className="btn-android-soon">
+          <a href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
             <FaGooglePlay size={18} />
-            Android Coming Soon
-          </span>
+            Get on Google Play
+          </a>
         </div>
       </div>
     </section>
